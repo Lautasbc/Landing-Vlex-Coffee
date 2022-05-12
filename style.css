@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:ital,wght@1,700&family=Poppins:ital,wght@1,500;1,600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +13,9 @@
     display: flex;
     justify-content: space-between;
     height: 73px;
+    position:sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .logo {
@@ -25,7 +30,8 @@ nav {
     padding-right: 2%;
 }
 
-h1 {
+h2 {
+    font-size: 33px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -94,3 +100,132 @@ a {
 .li-more:hover {
     list-style-image: url(./images/icon-more.png);
 }
+
+.main {
+    color: white; 
+    background-image: url(https://hdwallsource.com/img/2014/9/coffee-cup-wallpaper-38720-39606-hd-wallpapers.jpg);
+    background-size: auto; 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+
+article {
+    width: 65vh;
+    height: 65vh;
+    background-color: aquamarine;
+}
+
+.first-art {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    gap: 48px;
+}
+
+h1 {
+    font-size: 41px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.p-fisrt {
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+span {
+    color: #c28775;
+}
+
+.button-first {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.button-first button {
+    background-color: transparent;
+    width: 90px;
+    height: 36px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.button-fa:hover {
+    background-color: #c2877580;
+    transition: 1s ease;
+}
+
+.second-art {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.second-art img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.second-art button {
+    background-color: transparent;
+    border-radius: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 340px;
+    left: 175px;
+    width: 90px;
+    height: 36px;
+}
+
+.buttom-cat:hover {
+    background-color: #c2877580;
+    transition: 1s ease;
+}
+
+.section-two {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://cdn.pixabay.com/photo/2021/07/01/23/42/wallpaper-6380532_960_720.jpg);
+    border-top: 5px solid white;
+}
+
+.info-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.452);
+    height: 330px;
+}
+
+.h2-about {
+    color: wheat;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 32px;
+}
+
+.p-two {
+    color: wheat;
+    text-align: center;
+    width: 40vw;
+    margin-top: 65px;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
