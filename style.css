@@ -103,8 +103,9 @@ a {
 
 .main {
     color: white; 
-    background-image: url(https://hdwallsource.com/img/2014/9/coffee-cup-wallpaper-38720-39606-hd-wallpapers.jpg);
-    background-size: auto; 
+    background-image: url(./images/sec-one-img.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat; 
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -200,7 +201,7 @@ span {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(https://cdn.pixabay.com/photo/2021/07/01/23/42/wallpaper-6380532_960_720.jpg);
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-diseno-acuarela-color-marron-suave_1055-8934.jpg?w=2000);
     border-top: 5px solid white;
 }
 
@@ -229,3 +230,119 @@ span {
 
 }
 
+.tittle-benefits {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.tittle-benefits h2{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: black;
+}
+
+.tittle-benefits p{
+    font-size: 25px;
+}
+
+.sec-benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background: #eacda3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffe4c9, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffe4c9, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-top: 3px solid white;
+
+}
+
+.article-benefits {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.benefit-ico {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.benefit-art h2 {
+    margin-bottom: 15px;
+    color: black;
+}
+
+.benefit-art {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #ff980024;
+    border-radius: 10px;
+}
+
+.p-benefit {
+    width: 75%;
+    margin-top: 15px;
+}
+
+.sec-three{
+    height: 80vh;
+    background-color: #eacda3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 5px solid white;
+}
+
+.art-work{
+    background-color: #ff980024;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.tittle-work h2 {
+    text-transform: uppercase;
+    color: black;
+}
+
+.art-work h2{
+    font-size: 16px;
+    color: black;
+}
+
+.art-work i {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.art-work img {
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+.art-work p {
+    text-align: center;
+    width: 85%;
+    margin-top: 15px;
+    font-size: 16px;
+    color: black;
+}
